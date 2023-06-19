@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'bold';
+    src: url(fonts/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url(fonts/static/Montserrat-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Regular';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: red !important;
+}
+
+.site-header {
+    z-index: 999;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.site-header .site-header-banner{
+    background-color: #fff;
+}
+
+.site-header-banner .container {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header-banner .site-search {
+    display: flex;
+    position: relative;
+    left: 52px;
+}
+
+.site-header-banner .items ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header-banner .items a{
+    color: black;
+    font-size: 14px;
+}
+
+
+.site-header-banner .items li:first-child{
+    border-right: 1px solid #e1e1e1;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.site-header-banner .items li:last-child{
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.site-header-banner .items i{
+    margin-left: 15px;
+}
+.site-header-banner .items .icon-3{
+    font-size: 25px;
+}
+
+.site-search .categories {
+    position: relative;
+    border: 1px solid #e1e1e1;
+
+}
+
+.site-search .search button {
+    padding: 6px 15px;
+    background: none;
+    border: none;
+}
+
+.input-form:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+.site-search .categories select{
+    position: relative;
+    width: 175px;
+    height: 40px;
+    padding-left: 15px;
+    background: none;
+    border: none;
+    font-family: 'bold';
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.site-search .categories input::placeholder{
+    color: black;
+}
+
+.site-search .categories .icons-1 {
+    position: absolute;
+    left: 149px;
+    top: 12px;
+}
+
+.site-search .search {
+    position: relative;
+    border: 1px solid #e1e1e1;
+}
+
+.site-search .search input{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    background: none;
+    border: none;
+}
+
+/* .site-search .search .icons-2 {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+} */
+
+
+/* */
+
+.site-header .site-header-bottom {
+    background-color: #252525; 
+}
+
+.site-header-bottom .container {
+    display: flex;
+    height: 58px;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header-bottom .site-menu #menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.site-header-bottom .site-menu #menu a {
+    font-size: 14px;
+}
+
+.site-header-bottom .site-menu li {
+    margin-right: 45px;
+}
+
+.site-header-bottom .site-menu li:last-child {
+    margin-right: 0;
+}
+
+.site-header-bottom .site-icons ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header-bottom .site-icons li {
+    padding-right: 15px;
+}
+
+.site-header-bottom .site-icons li:last-child {
+    padding-right: 0;
+}
+
+.site-header-bottom .site-menu #menu-1 {
+    color: #959595;
+    position: absolute;
+    padding: 0;
+    background: #fff;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 270px;
+    height: 285px;
+    top: 41px;
+    display: none;
+}
+
+.site-header-bottom .site-menu #menu-1 li {
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.site-header-bottom .site-menu #menu-1 a {
+    color: #959595;
+    display: block;
+}
+
+.site-header-bottom .site-menu #menu-1 li:first-child {
+    padding-top: 0;
+}
+
+.site-header-bottom .site-menu #menu-1 li:last-child {
+    border-bottom: 0;
+}
+
+.site-header-bottom .site-menu #menu-2 {
+    position: absolute;
+    padding: 0;
+    left: 100%;
+    box-sizing: border-box;
+    width: 270px;
+    height: 270px;
+    padding: 10px 25px;
+    background: #fff;
+    display: none;
+}
+
+#click-me-2 {
+    position: relative;
+}
+
+.site-header-bottom .site-menu #menu-2 li{
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#main {
+    background-image: url(images/assetst/Screenshot\ 2023-06-16\ 163253.png);
+    height: 710px;
+    width: 1900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
